@@ -6,7 +6,7 @@ export class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         SavorLab
                     </a>
                     <button
@@ -47,33 +47,18 @@ export class Navbar extends Component {
                             <a
                                 className="nav-link active"
                                 aria-current="page"
-                                href="#"
+                                href="/register"
                             >
                                 Register
                             </a>
                             <a
                                 className="nav-link active"
                                 aria-current="page"
-                                href="#"
+                                href="/login"
                             >
                                 Sign in
                             </a>
                         </div>
-
-                        {/* <form className="d-flex" role="search">
-                    <input
-                        className="form-control me-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                    />
-                    <button
-                        className="btn btn-outline-success"
-                        type="submit"
-                    >
-                        Search
-                    </button>
-                </form> */}
                     </div>
                 </div>
             </nav>
